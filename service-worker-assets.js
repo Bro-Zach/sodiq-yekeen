@@ -61,10 +61,6 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-jefc3GDGNJZU\/x42STUr2wtZwTkRQvWqplQLgeB29is=",
-      "url": "image\/dan-rogers-unsplash.jpg"
-    },
-    {
       "hash": "sha256-O7fZmuGxfKSFvQW1DpP7ohTconGrid5jl0BQ\/FSop\/Q=",
       "url": "image\/unsplash.jpg"
     },
@@ -209,5 +205,5 @@
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "gb2UbQvx"
+  "version": "AcGbmNSl"
 };
