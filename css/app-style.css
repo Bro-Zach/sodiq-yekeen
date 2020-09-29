@@ -3030,7 +3030,7 @@ table.grid {
 }
 
 .bg-dark {
-    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.90) !important;
 }
 
 .bg-dark-light {
@@ -4152,4 +4152,10 @@ table.grid {
     100% {
         transform: translate(24px, 0);
     }
+}
+
+.validation-message {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
 }
