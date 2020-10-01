@@ -4159,3 +4159,31 @@ table.grid {
     animation-fill-mode: both;
     animation-name: fadeInDown;
 }
+
+@media screen and (min-width: 500px) {
+    #share-buttons {
+        display: none
+    }
+
+}
+
+.whatsapp {
+    display: none;
+    color: #1DC143;
+}
+
+    .whatsapp:hover, .whatsapp:focus {
+        background: #1DC143;
+        color: #fff;
+        text-shadow: 0 0 1px rgba(0,0,0,0.2);
+    }
+
+    .whatsapp.activeWhatsapp {
+        display: inline-block;
+    }
+
+.verse-card {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
