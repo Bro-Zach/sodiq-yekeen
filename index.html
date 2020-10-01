@@ -18,6 +18,16 @@
     <link href="css/app-style.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "a5e100c8-1871-4b82-8ad7-088a24aba44b",
+            });
+        });
+    </script>
 </head>
 
 <body class="bg-theme bg-theme1">
@@ -30,7 +40,7 @@
         </div>
     </app>
 
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         // Single Page Apps for GitHub Pages
         // https://github.com/rafrex/spa-github-pages
         // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
@@ -58,7 +68,7 @@
                 }
             }
         }(window.location))
-    </script>
+    </script>-->
 
     <div id="blazor-error-ui">
         Oops! Something went wrong.
